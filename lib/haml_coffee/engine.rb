@@ -17,7 +17,7 @@
 module HamlCoffee
   class Engine < Rails::Engine
     initializer 'sprockets.haml_coffee', :after => 'sprockets.environment' do |app|
-      app.assets.register_engine('.haml-coffee', TiltTemplate)
+      app.assets.register_engine('.haml-coffee', HamlCoffee::TiltTemplate)
     end
   end
 end
