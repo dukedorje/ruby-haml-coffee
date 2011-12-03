@@ -16,7 +16,7 @@ To install, add ruby-haml-coffee to your Gemfile:
 
     group :assets do
       ...
-      gem 'ruby-haml-coffee'
+      gem 'haml-coffee'
       ...
     end
 
